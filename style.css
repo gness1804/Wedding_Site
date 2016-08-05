@@ -1,0 +1,201 @@
+body {
+	background-image: url(http://az616578.vo.msecnd.net/files/2016/01/25/635892769765283530-1833925999_Beautiful-Lavender-Fields-Of-France.jpg);
+}
+header {
+	position: fixed;
+	left: 200px;
+	z-index: 1;
+	background-color: #ffe6ff;
+}
+header p {
+	padding-right: 50px;
+	padding-left: 10px;
+	font-family: Brush Script MT, serif;
+	font-size: 24px;
+	cursor: pointer;
+}
+header p:hover {
+	color: #0000ff;
+}
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #ffe6ff;
+	max-width: 100px;
+	box-shadow: 0px 5px 5px 0px;
+	z-index: 1;
+}
+.dropdown-content a {
+	display: block;
+	padding: 5px;
+	text-decoration: none;
+	font-family: Brush Script MT, serif;
+	font-size: 20px;
+	color: black;
+	cursor: pointer;
+}
+.dropdown-content a:hover {
+	color: red;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+.regpage { /*The main div for the page */
+	position: absolute;
+	left: 200px;
+	top: 150px;
+	margin-right: 40px;
+	max-width: 900px;
+}
+.introdiv{ /*The div on main page with main pic */
+	border: 1px solid black;
+	background-color: white;
+	border-radius: 10px;
+	padding: 10px;
+}
+.introdiv h3 {
+	text-align: center;
+	font-family: Courier New;
+	font-size: 32px;
+	font-style: italic;
+}
+.introdiv p {
+	text-align: center;
+	font-family: Arial;
+}
+.introdiv p span {
+	font-size: 24px;
+	text-shadow: 2px;
+}
+.introdiv img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.second {
+	border: 1px solid black;
+	background-color: white;
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: 30px;
+}
+.second h4 {
+	text-align: center;
+	font-size: 30px;
+	font-family: Courier New;
+	font-style: italic;
+}
+.second img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.second p {
+	font-family: Arial;
+	text-align: center;
+}
+.second p span {
+	font-size: 24px;
+	text-shadow: 2px;
+}
+.second button {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 14px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: #ffb3ff;
+}
+.hotel {
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 10px;
+	margin-bottom: 25px;
+}
+.hotel h5 {
+	text-align: center;
+	font-family: Courier New;
+	font-size: 28px;
+	font-style: italic;
+}
+.hotel img {
+	max-width: 500px;
+}
+.menubtn { /*Site menu button, does not appear in non-smartphone screen */
+	display: none;
+}
+.responsive-menu { /* Pink menu, does not appear in non-smartphone screen*/
+	display: none;
+}
+a:link{
+	color: blue;
+	text-decoration: none;
+}
+a:hover {
+	color: green;
+	font-style: italic;
+}
+a:visited {
+	color: magenta;
+}
+input:hover {
+	border: solid #ff1aff;
+	background-color: #ffe6ff
+}
+select:hover {
+	border: solid #ff1aff;
+}
+@media screen and (max-width: 500px) { /* for smartphones */
+	body {
+		
+	}
+	header {
+		display: none;
+	}
+	.regpage { /*The main div for the page */
+		top: 100px;
+		left: 50px;
+	}
+	.introdiv img {
+		max-width: 250px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.introdiv h3 {
+		font-size: 20px;
+	}
+	.hotel h5 {
+		font-size: 18px;
+	}
+	.menubtn { /*The SITE MENU button */
+		display: block;
+		position: absolute;
+		left: 120px;
+		top: 50px;
+		font-size: 14px;
+		border: 1px solid black;
+		border-radius: 5px;
+		background-color: #ffb3ff;
+	}
+	.responsive-menu{ /*The pink menu that appears in mobile. */
+		position: relative;
+		top: 100px;
+		left: 60px;
+		border: 1px solid black;
+		max-width: 200px;
+		border-radius: 5px;
+		background-color: #ffb3ff;
+	}
+	.responsive-menu li { /*The pink menu that appears in mobile--list item. */
+		list-style-type: none;
+		padding-bottom: 35px;
+		font-family: Brush Script MT, serif;
+		font-size: 18px;
+	}
+}
