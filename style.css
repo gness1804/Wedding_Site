@@ -234,4 +234,8 @@ select:hover {
 		font-size: 18px;
 	}
 
+	#fname, #lname, #mchoice {
+		border: 1px solid black;
+	}
+
 }
