@@ -232,6 +232,10 @@ select:hover {
     margin-top: 20px;
 	}
 
+	.responsive-menu ul {
+		padding: 0;
+	}
+
 	.responsive-menu li { /*The pink menu that appears in mobile--list item. */
 		list-style-type: none;
 		padding-bottom: 35px;
