@@ -12,7 +12,7 @@ function dayCounter () {
 	var msPerDay = (24 * 60 * 60 * 1000);
 	var daysSince = Math.floor(timeSince / msPerDay);
 	document.getElementById("dateVessel").innerHTML = daysSince + "&nbsp days have elapsed since the wedding.";
-};
+}
 function rsvpFunc() {
 	var x = document.getElementById("fname").value;
 	var y = document.getElementById("lname").value;

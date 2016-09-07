@@ -4,8 +4,11 @@ body {
 
 header {
 	position: fixed;
-	left: 200px;
+	/*left: 200px;*/
+	margin: auto;
 	z-index: 1;
+	left: 50%;
+	transform: translateX(-50%);
 	background-color: #ffe6ff;
 }
 
