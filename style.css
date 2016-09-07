@@ -3,13 +3,16 @@ body {
 }
 
 header {
+	align-items: center;
 	position: fixed;
-	/*left: 200px;*/
 	margin: auto;
+	display: flex;
+	justify-content: center;
 	z-index: 1;
 	left: 50%;
 	transform: translateX(-50%);
 	background-color: #ffe6ff;
+	width: 80vw;
 }
 
 header p {
