@@ -236,6 +236,7 @@ select:hover {
 		list-style-type: none;
 		padding-bottom: 35px;
 		font-family: Brush Script MT, serif;
+		text-align: center;
 		font-size: 18px;
 	}
 
