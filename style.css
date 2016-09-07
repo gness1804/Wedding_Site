@@ -7,6 +7,7 @@ header {
 	position: fixed;
 	margin: auto;
 	display: flex;
+	top: 50px;
 	justify-content: center;
 	z-index: 1;
 	left: 50%;
@@ -61,11 +62,14 @@ header p:hover {
 }
 
 .regpage { /*The main div for the page */
-	position: absolute;
+	/*border: 1px dotted red;*/
+	margin: auto;
+	margin-top: 150px;
+	/*position: absolute;
 	left: 200px;
 	top: 150px;
-	margin-right: 40px;
-	max-width: 900px;
+	margin-right: 40px;*/
+	max-width: 800px;
 }
 
 .introdiv{ /*The div on main page with main pic */
