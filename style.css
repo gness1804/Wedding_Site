@@ -62,13 +62,8 @@ header p:hover {
 }
 
 .regpage { /*The main div for the page */
-	/*border: 1px dotted red;*/
 	margin: auto;
 	margin-top: 150px;
-	/*position: absolute;
-	left: 200px;
-	top: 150px;
-	margin-right: 40px;*/
 	max-width: 800px;
 }
 
@@ -192,7 +187,7 @@ select:hover {
 	border: solid #ff1aff;
 }
 
-@media screen and (max-width: 500px) { /* for smartphones */
+@media screen and (max-width: 800px) { /* for smartphones */
 	header {
 		display: none;
 	}
@@ -219,6 +214,7 @@ select:hover {
 
 	.menubtn { /*The SITE MENU button */
 		display: block;
+		margin: auto;
 		position: absolute;
 		left: 120px;
 		top: 50px;
