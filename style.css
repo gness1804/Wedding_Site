@@ -193,8 +193,7 @@ select:hover {
 	}
 
 	.regpage { /*The main div for the page */
-		top: 100px;
-		left: 50px;
+
 	}
 
 	.introdiv img {
@@ -215,9 +214,6 @@ select:hover {
 	.menubtn { /*The SITE MENU button */
 		display: block;
 		margin: auto;
-		position: absolute;
-		left: 120px;
-		top: 50px;
 		font-size: 14px;
 		border: 1px solid black;
 		border-radius: 5px;
@@ -226,12 +222,14 @@ select:hover {
 
 	.responsive-menu{ /*The pink menu that appears in mobile. */
 		position: relative;
-		top: 100px;
-		left: 60px;
-		border: 1px solid black;
-		max-width: 200px;
-		border-radius: 5px;
-		background-color: #ffb3ff;
+    /* top: 100px; */
+    /* left: 60px; */
+    border: 1px solid black;
+    max-width: 200px;
+    border-radius: 5px;
+    background-color: #ffb3ff;
+    margin: auto;
+    margin-top: 20px;
 	}
 
 	.responsive-menu li { /*The pink menu that appears in mobile--list item. */
