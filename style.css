@@ -7,6 +7,7 @@ header {
 	position: fixed;
 	margin: auto;
 	display: flex;
+	top: 50px;
 	justify-content: center;
 	z-index: 1;
 	left: 50%;
@@ -61,11 +62,9 @@ header p:hover {
 }
 
 .regpage { /*The main div for the page */
-	position: absolute;
-	left: 200px;
-	top: 150px;
-	margin-right: 40px;
-	max-width: 900px;
+	margin: auto;
+	margin-top: 150px;
+	max-width: 800px;
 }
 
 .introdiv{ /*The div on main page with main pic */
@@ -188,14 +187,13 @@ select:hover {
 	border: solid #ff1aff;
 }
 
-@media screen and (max-width: 500px) { /* for smartphones */
+@media screen and (max-width: 800px) { /* for smartphones */
 	header {
 		display: none;
 	}
 
 	.regpage { /*The main div for the page */
-		top: 100px;
-		left: 50px;
+
 	}
 
 	.introdiv img {
@@ -215,9 +213,7 @@ select:hover {
 
 	.menubtn { /*The SITE MENU button */
 		display: block;
-		position: absolute;
-		left: 120px;
-		top: 50px;
+		margin: auto;
 		font-size: 14px;
 		border: 1px solid black;
 		border-radius: 5px;
@@ -226,18 +222,25 @@ select:hover {
 
 	.responsive-menu{ /*The pink menu that appears in mobile. */
 		position: relative;
-		top: 100px;
-		left: 60px;
-		border: 1px solid black;
-		max-width: 200px;
-		border-radius: 5px;
-		background-color: #ffb3ff;
+    /* top: 100px; */
+    /* left: 60px; */
+    border: 1px solid black;
+    max-width: 200px;
+    border-radius: 5px;
+    background-color: #ffb3ff;
+    margin: auto;
+    margin-top: 20px;
+	}
+
+	.responsive-menu ul {
+		padding: 0;
 	}
 
 	.responsive-menu li { /*The pink menu that appears in mobile--list item. */
 		list-style-type: none;
 		padding-bottom: 35px;
 		font-family: Brush Script MT, serif;
+		text-align: center;
 		font-size: 18px;
 	}
 
