@@ -3,11 +3,15 @@ body {
 }
 
 #super-container {
-	border: 1px dotted red;
+	/*border: 1px dotted red;*/
 }
 
 @media screen and (max-width: 800px) {
-  #super-container {
+	body {
+		/*background-size: 500vw 500vh;*/
+	}
+
+	#super-container {
 		width: 200vw;
 	}
 
