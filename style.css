@@ -2,6 +2,21 @@ body {
 	background-image: url(http://az616578.vo.msecnd.net/files/2016/01/25/635892769765283530-1833925999_Beautiful-Lavender-Fields-Of-France.jpg);
 }
 
+#super-container {
+	/*border: 1px dotted red;*/
+}
+
+@media screen and (max-width: 800px) {
+	body {
+		/*background-size: 500vw 500vh;*/
+	}
+
+	#super-container {
+		width: 200vw;
+	}
+
+}
+
 header {
 	align-items: center;
 	position: fixed;
