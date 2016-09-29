@@ -229,7 +229,7 @@ select:hover {
 	.menubtn { /*The SITE MENU button */
 		display: block;
 		margin: auto;
-		font-size: 14px;
+		font-size: 32px;
 		border: 1px solid black;
 		border-radius: 5px;
 		background-color: #ffb3ff;
